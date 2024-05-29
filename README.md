@@ -20,7 +20,7 @@ clear connections map:
 terminate:  
 `kill -15 $(pidof udpproxy)`  
 
-# vebose stats
+# verbose stats
 `UDPPROXY_USEFDS=9999 UDPPROXY_REUSEPORT=true ./udpproxy localhost:1025 localhost:1026 -s -v &`  
 `kill -14 $(pidof udpproxy)`
 ```
