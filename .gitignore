@@ -1,0 +1,6 @@
+*.class
+udpproxy
+udpproxy.o
+*~
+.vscode/
+
